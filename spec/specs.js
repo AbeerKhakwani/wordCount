@@ -11,4 +11,7 @@ describe('wordOrder', function() {
     it("if one word is reapeat more then another word it comes up first", function() {
         expect(wordCount("b b a b a c")).to.eql(" b a c");
     });
+    it("if one word is reapeat more then another word it comes up first", function() {
+        expect(wordCount("hello world world")).to.eql(" world hello");
+    });
 });

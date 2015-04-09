@@ -43,6 +43,7 @@ var wordCount = function(input) {
         sorted.sort(function(a,b){return b[1]-a[1]});
     }
     //debugger;
+    console.log(sorted);
     for(var i = 0; sorted.length > i; i++){
         returnString+=" " +sorted[i][0];
 
@@ -54,3 +55,13 @@ $(function(){
 
 
 });
+
+
+// instead of if else use ternary
+// (n > 0) ? "s" : "";
+//
+// if (n > 0) {
+//     "option a";
+// } else {
+//     "option b";
+// }
