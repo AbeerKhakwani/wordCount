@@ -48,9 +48,9 @@ var wordCount = function(input) {
 
     }
     return returnString;
-
-
-
-
-
 }
+
+$(function(){
+
+
+});
